@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* Documento CSS */
+/*Sciegli il colore del corpo del testo*/
+body
+{	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #ffff00; /*color giallo*/
+  background: #008080 url(cielo.jpg);/*background: #008080 colore fisso sfondo, #ffffff è bianco
+  url carico immagine*/
+}
+/*Questa sezione è per i link*/
+a:link
+{font-weight:normal; color:Navy;
+}
+a:visited
+{font-weight:normal; color:White;
+}
+/*Se passo sopra con il mouse succede*/
+a:hover {
+	color: #ff0000;/*color rosso*/
+	}
+/*Questa sezione è per la sezione del paragrafo*/
+p {font-style:italic;
+  font-size:18px;
+  color: #ff0000; /*color rosso*/
+}
+/*Questa sezione è per la sezione del titolo*/
+h1 {
+	margin-bottom: 0;
+	color: #800080;/*color purple*/
+  text-decoration: underline;/*sottolineato*/
+}
+/*Questa sezione è per il bordo nero dell'immagine*/
+img {border-color: #000000; border:thick; border-style:ridge;
+}
